@@ -10,16 +10,21 @@
 	
 }
 .jumbotron {
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/42/f9/68/42f968872e4ce62fafe96b4fec7b10f2.jpg");
+	background-image: url("https://static.pexels.com/photos/33109/fall-autumn-red-season.jpg");
 }
 .navbar{
 	background-color: transparent;
 	border-bottom: 1px solid black;
+	color: grey;
+	font-weight: 800px;
+}
+.container-fluid{
+	padding: 0;
 }
 .jumbotron h1{
 	padding-top: 60px;
 	border-width: 3px;
-	margin: 30px auto;
+	margin: 0;
 
 }
 .btn{
@@ -43,6 +48,7 @@
 .sub-section h1{
 	padding-top: 80px;
 	color: white;
+	margin: 0;
 
 }
 .sub-section p{
@@ -60,7 +66,6 @@
 }
 hr{
 	max-width: 50px;
-	border-color: rgba(240,95,64);
 	color: #ee4b28;
 	border-width: 3px;
 }
@@ -113,6 +118,12 @@ i{
 	font-weight: 500;
 	text-decoration: none;
 }
-.font2{
-	margin-left: 300px;
+.thumbnail .row section.col-md-4.center{
+	margin-left: 250px;
+}
+.row section.col-md-4.center.font{
+	margin: 0 auto;
+}
+.thumbnail.text-center section.row hr{
+	color: #FF4500;
 }
