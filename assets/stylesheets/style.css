@@ -7,19 +7,24 @@
 	margin-bottom: 0;
 	padding: 0;
 	margin-top: 0;
+    background-color: transparent;
 	
 }
-.jumbotron {
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/42/f9/68/42f968872e4ce62fafe96b4fec7b10f2.jpg");
+body div.backimage{
+	background-image: url("https://www.planwallpaper.com/static/images/wallpapers-hd-8000-8331-hd-wallpapers.jpg");
+    background-size: cover;
 }
 .navbar{
 	background-color: transparent;
+	border:0px;
 	border-bottom: 1px solid black;
+	margin-bottom: 0px;
 }
 .jumbotron h1{
 	padding-top: 60px;
 	border-width: 3px;
-	margin: 30px auto;
+	margin: 0 auto;
+	
 
 }
 .btn{
@@ -43,6 +48,7 @@
 .sub-section h1{
 	padding-top: 80px;
 	color: white;
+	margin: 0 auto;
 
 }
 .sub-section p{
@@ -113,6 +119,12 @@ i{
 	font-weight: 500;
 	text-decoration: none;
 }
-.font2{
-	margin-left: 300px;
+.text-center hr,.block hr,.jumbotron hr{
+	border-color: #FF4500;
+}
+div.align{
+	margin-left: 250px;
+}
+.text-center .center1{
+margin-left: 100px;
 }
